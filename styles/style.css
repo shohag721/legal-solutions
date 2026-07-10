@@ -4,4 +4,32 @@ nav{
 }
 .nav-images img{
     width: 30px;
+    filter: sepia(100%) saturate(500%) hue-rotate(10deg) brightness(0.9);
+}
+/* hero section */
+.hero{
+    margin-top: 50px;
+    background-image: url(/images/banner.png);
+    height: 550px;
+    border-radius: 8px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hero-container{
+    padding: 84px;
+    width: 692px;
+    height: 342px;
+    margin: 0 auto;
+    text-align: center;
+}
+#hero-search{
+    width: 370px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+#hero-search-btn{
+    margin-left: 20px;
+    padding: 10px 28px;
+    border-radius: 8px;
 }
