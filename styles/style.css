@@ -36,32 +36,42 @@ nav{
     border-radius: 8px;
 }
 /* practics-aera */
+.practics-aera{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+}
 .practics-aera p{
     width: 714px;
 }
 /*  */
 .practices-card{
-    width: 300px;
-    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
 }
 .card-info{
     padding: 30px;
     border: 1px solid teal;
+    width: 300px;
+    height: 400px;
 }
 .card-info .card-details{
     margin-top: 10px;
     width: 100%;
     text-align: center;
-    font-size: 0.5ram;
+    font-size: 0.8rem;
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 10px;
 }
-.card-info img{
-    margin: 0 auto;
-    width: 72px;
-    margin-bottom: 30px;
-}
 .card-info h4{
-    font-size: 2ram;
+    font-size: 2rem;
+}
+.card-info img{
+    margin: 0 auto 30px;
+
+}
+.card-info a img{
+    width: 40px;
 }
