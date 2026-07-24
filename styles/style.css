@@ -75,3 +75,12 @@ nav{
 .card-info a img{
     width: 40px;
 }
+/* client section */
+.client-content{
+    height: 500px;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 8px;
+}
